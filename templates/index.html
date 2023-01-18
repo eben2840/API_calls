@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+  </header>
+
+
+  <main>
+
+
+<div class="container">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" style="margin-bottom:30px;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Book a Room</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          Navbar text with an inline element
+        </span>
+      </div>
+    </div>
+  </nav>
+
+<form action="" method="post">
+
+  
+
+      
+
+  <!--Personal Information:-->
+<div class="row" style=" padding:30px; border-radius:10px;">
+<div class="col-12 col-lg-6">
+  <h3>Personal Information:</h3>
+  <h6 class="text-muted">Provide your personal Information:</h6>
+</div>
+
+
+<div class="col-12 col-lg-6">
+
+  <div class="form-group" style="margin-bottom:20px;">
+    <label for="name">Name</label>
+    <input type="text" name="name" style="border-radius:15px; padding:10px; " class="form-control" id="name" placeholder="Enter your name">
+  </div>
+
+  <div class="form-group" style="margin-bottom:20px;">
+    <label for="phone">Phone Number</label>
+    <input type="tel" name="phonenumber" style="border-radius:15px; padding:10px; " class="form-control" id="phone" placeholder="Enter your phone number">
+  </div>
+
+  <div class="form-group" style="margin-bottom:20px;">
+    <label for="course">Course of Study</label>
+    <input type="text" name="course" style="border-radius:15px; padding:10px; " class="form-control" id="course" placeholder="Enter your course of study">
+  </div>
+
+  <div class="form-group" style="margin-bottom:20px;">
+    <label for="level">Level</label>
+    <select class="form-control" id="level"  style="border-radius:15px; padding:10px; ">
+      <option>Undergraduate</option>
+      <option>Graduate</option>
+    </select>
+  </div>
+
+</div>  
+</div>
+<!--end Personal Information:-->
+
+
+<!--Reservation Details:-->
+<div class="row" style="margin-top:50px;  padding:30px; border-radius:10px;">
+  <div class="col-12  col-lg-6">
+    <h3>Reservation Details:</h3>
+    <h6 class="text-muted">Provide your personal Information:</h6>
+    </div>
+  
+  <div class="col-12  col-lg-6">
+  <div class="form-group" style="margin-bottom:20px;">
+    <label for="bookingType">Booking Type</label>
+    <select class="form-control" id="bookingType"  style="border-radius:15px; padding:10px; ">
+      <option>Single-Booking</option>
+      <option>Multiple Booking</option>
+    </select>
+  </div>
+
+ 
+
+  <div class="row">
+    <div class="col-12 col-lg-4" >
+    <div class="form-group" style="margin-bottom:20px;">
+      <label for="numBookings">Number of Bookings</label>
+      <input type="number" name="numberofbooking" class="form-control" id="numBookings"  style="border-radius:15px; padding:10px; ">
+    </div>
+  </div>
+
+    <div class="col-12 col-lg-4" >
+  <div class="form-group" style="margin-bottom:20px;">
+    <label for="checkin">Check-in Date</label>
+    <input type="date" name="date" class="form-control" id="checkin"  style="border-radius:15px; padding:10px; ">
+  </div>
+</div>
+
+<div class="col-12 col-lg-4" >
+  <div class="form-group" style="margin-bottom:20px;">
+    <label for="room">Select Room</label>
+    <select class="form-control" id="room"  style="border-radius:15px; padding:10px; ">
+      <option>Single Room</option>
+      <option>Double Room</option>
+      <option>Deluxe Room</option>
+    </select>
+  </div>
+</div>
+
+</div>
+</div>
+</div>
+<!--end Reservation Details:-->
+
+
+
+<div class="row" style="margin-top:50px; margin-top:50px;  padding:30px; border-radius:10px;" >
+  <div class="col-12  col-lg-6">
+  <h3>Additional Information:</h3>
+  <h6 class="text-muted">Provide your personal Information:</h6>
+  </div>
+
+
+<div class="col-12  col-lg-6"
+  <div class="form-group" style="margin-bottom:20px;">
+    <label for="requests">Special Requests or Comments</label>
+    <select class="form-control" id="requests"  style="border-radius:15px; padding:10px; ">
+      <option>Bed Location</option>
+      <option>Room View</option>
+    </select>
+  
+
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="agreement">
+    <label class="form-check-label"  name="bed" for="agreement">I agree to the terms and conditions</label>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-12  col-lg-6" style="margin-top:50px;">
+  <h3>Payment Information:</h3>
+  <div class="form-group">
+    <label for="paymentMethod" class="text-muted">Payment Method</label>
+   </div>
+  </div>
+</div>
+ 
+
+</div> 
+<div class="row" style="margin-bottom:50px;">
+  <div class="col-12 col-lg-6">
+  </div> 
+  
+  <div class="col-12 col-lg-6">
+<button class="submit" style="border-color:none; border-color:none; width:90px; padding:8px; border-radius:15px; background-color:#191970; border-style:none; color:#fff;">
+  Submit
+</button>
+<button class="submit" style="border-color:none; border-color:none; background-color:#fff; border-radius:15px; padding:10px; border-style:none;">
+  Terms and Conditions
+</button>
+</div>
+</form>
+  </main>
+
+
+  <footer>
+    <!-- place footer here -->
+   
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+</html>
